@@ -24,7 +24,7 @@ h1 {
 /* Style dla paragrafów */
 p {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Ustawienie czcionki */
-    font-size: 18px; /* Ustawienie mniejszego rozmiaru czcionki dla tekstu */
+    font-size: 27px; /* Ustawienie mniejszego rozmiaru czcionki dla tekstu */
     color: #666; /* Ustawienie ciemniejszego koloru tekstu dla lepszej czytelności */
     line-height: 1.6; /* Ustawienie interlinii */
 }
