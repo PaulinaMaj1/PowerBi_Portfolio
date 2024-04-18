@@ -7,7 +7,7 @@
 
 /* Ustawienia ogólne dla całego ciała dokumentu */
 body {
-    font-family: 'Courier New', monospace; /* Ustawienie czcionki Courier New */
+    font-family: 'Times New Roman', monospace; /* Ustawienie czcionki Courier New */
     background-color: #D1DFE9; /* Ustawienie koloru tła */
     color: #333; /* Ustawienie koloru tekstu */
     line-height: 1.6; /* Ustawienie interlinii */
