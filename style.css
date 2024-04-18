@@ -1,10 +1,11 @@
-body {
-    font-family: 'Portfolio Power Bi by Paulina Maj', Courier New;
-    margin: 40px;
-    background-color: #D1DFE9;
-    color: #333;
-}
+  body {
+            font-family: 'Courier New', monospace; /* Ustawienie czcionki Courier New */
+            background-color: #D1DFE9; /* Ustawienie koloru tła */
+            color: #333333; /* Ustawienie koloru tekstu */
+            margin: 0;
+            padding: 20px;
+        }
 
-h1 {
-    color: #026e99;
-}
+        h1, h2 {
+            font-family: 'Courier New', monospace;
+        }
