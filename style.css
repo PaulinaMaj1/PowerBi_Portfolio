@@ -14,16 +14,20 @@ body {
     padding: 20px; /* Dodanie paddingu do treści */
 }
 
-/* Stylizacje dla nagłówków */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Courier New', monospace; /* Zachowanie spójności czcionki dla nagłówków */
+h1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Ustawienie czcionki */
+    font-size: 28px; /* Ustawienie rozmiaru czcionki dla nagłówka */
+    color: #333; /* Ustawienie koloru tekstu */
+    margin-bottom: 20px; /* Dodanie marginesu na dole, aby oddzielić od tekstu */
 }
 
-/* Stylizacje dla paragrafów */
+/* Style dla paragrafów */
 p {
-    font-size: 16px; /* Ustawienie rozmiaru czcionki dla paragrafów */
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Ustawienie czcionki */
+    font-size: 16px; /* Ustawienie mniejszego rozmiaru czcionki dla tekstu */
+    color: #666; /* Ustawienie ciemniejszego koloru tekstu dla lepszej czytelności */
+    line-height: 1.6; /* Ustawienie interlinii */
 }
-
 /* Dodatkowe stylizacje, jeśli potrzebujesz */
 .container {
     max-width: 960px; /* Ustawienie maksymalnej szerokości kontenera */
