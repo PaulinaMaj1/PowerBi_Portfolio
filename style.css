@@ -1,11 +1,36 @@
-  body {
-            font-family: 'Courier New', monospace; /* Ustawienie czcionki Courier New */
-            background-color: #D1DFE9; /* Ustawienie koloru tła */
-            color: #333333; /* Ustawienie koloru tekstu */
-            margin: 0;
-            padding: 20px;
-        }
+/* Resetowanie marginesów i paddingów dla wszystkich elementów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        h1, h2 {
-            font-family: 'Courier New', monospace;
-        }
+/* Ustawienia ogólne dla całego ciała dokumentu */
+body {
+    font-family: 'Courier New', monospace; /* Ustawienie czcionki Courier New */
+    background-color: #D1DFE9; /* Ustawienie koloru tła */
+    color: #333; /* Ustawienie koloru tekstu */
+    line-height: 1.6; /* Ustawienie interlinii */
+    padding: 20px; /* Dodanie paddingu do treści */
+}
+
+/* Stylizacje dla nagłówków */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', monospace; /* Zachowanie spójności czcionki dla nagłówków */
+}
+
+/* Stylizacje dla paragrafów */
+p {
+    font-size: 16px; /* Ustawienie rozmiaru czcionki dla paragrafów */
+}
+
+/* Dodatkowe stylizacje, jeśli potrzebujesz */
+.container {
+    max-width: 960px; /* Ustawienie maksymalnej szerokości kontenera */
+    margin: auto; /* Wyśrodkowanie kontenera */
+    padding: 20px; /* Dodanie wewnętrznego marginesu */
+}
+
+/* Stylizacje dla linków */
+a {
+    color: #026e99; /* Ustawienie koloru dla linków
